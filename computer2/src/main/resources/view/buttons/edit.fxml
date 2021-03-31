@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="432.0" prefWidth="434.0" style="-fx-background-color: #032cfc;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controllers.EditController">
+   <children>
+      <TextField fx:id="textFieldProcessor" layoutX="184.0" layoutY="26.0" />
+      <Label layoutX="109.0" layoutY="30.0" text="Процессор" textFill="#f8f8f8" />
+      <TextField fx:id="textFieldVideoCard" layoutX="184.0" layoutY="51.0" />
+      <TextField fx:id="textFieldRAM" layoutX="184.0" layoutY="76.0" />
+      <TextField fx:id="textFieldMotherboard" layoutX="184.0" layoutY="101.0" />
+      <TextField fx:id="textFieldCooler" layoutX="184.0" layoutY="126.0" />
+      <TextField fx:id="textFieldSSD_M2" layoutX="184.0" layoutY="153.0" />
+      <TextField fx:id="textFieldSSD" layoutX="184.0" layoutY="178.0" />
+      <TextField fx:id="textFieldCorpus" layoutX="184.0" layoutY="203.0" />
+      <TextField fx:id="textFieldPowerSupply" layoutX="184.0" layoutY="228.0" />
+      <TextField fx:id="textFieldMonitor" layoutX="184.0" layoutY="253.0" />
+      <TextField fx:id="textFieldKeyboard" layoutX="184.0" layoutY="278.0" />
+      <TextField fx:id="textFieldMouse" layoutX="184.0" layoutY="303.0" />
+      <TextField fx:id="textFieldOther" layoutX="184.0" layoutY="328.0" />
+      <Label layoutX="108.0" layoutY="55.0" text="Видеокарта" textFill="#f8f8f8" />
+      <Label layoutX="126.0" layoutY="80.0" text="RAM" textFill="#f8f8f8" />
+      <Label layoutX="110.0" layoutY="105.0" text="Мат. плата" textFill="#f8f8f8" />
+      <Label layoutX="105.0" layoutY="130.0" text="Охлаждение" textFill="#f8f8f8" />
+      <Label layoutX="116.0" layoutY="157.0" text="SSD M2" textFill="#f8f8f8" />
+      <Label layoutX="126.0" layoutY="182.0" text="SSD" textFill="#f8f8f8" />
+      <Label layoutX="117.0" layoutY="207.0" text="Корпус" textFill="#f8f8f8" />
+      <Label layoutX="102.0" layoutY="232.0" text="Блок питания" textFill="#f8f8f8" />
+      <Label layoutX="115.0" layoutY="257.0" text="Монитор" textFill="#f8f8f8" />
+      <Label layoutX="108.0" layoutY="282.0" text="Клавиатура" textFill="#f8f8f8" />
+      <Label layoutX="120.0" layoutY="307.0" text="Мышь" textFill="#f8f8f8" />
+      <Label layoutX="118.0" layoutY="332.0" text="Прочее" textFill="#f8f8f8" />
+      <Button layoutX="201.0" layoutY="385.0" mnemonicParsing="false" onAction="#actionOK" text="ОК" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="CROSSHAIR" />
+   </cursor>
+</AnchorPane>
