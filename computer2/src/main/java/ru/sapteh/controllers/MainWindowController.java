@@ -9,6 +9,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.layout.AnchorPane;
@@ -73,6 +74,8 @@ public class MainWindowController {
 
     @FXML
     private TableColumn<Computer, String> columnOther;
+    @FXML
+    private Button button;
 
     @FXML
     void actionAdd(ActionEvent event) throws IOException {
@@ -130,4 +133,10 @@ public class MainWindowController {
         });
     }
 
+    public void onAction(ActionEvent actionEvent) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("/sample.fxml"));
+        stage.setTitle("Изучаю плитки бищ");
+        stage.setScene(new Scene(root));
+        stage.show();
+    }
 }

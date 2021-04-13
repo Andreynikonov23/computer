@@ -28,5 +28,6 @@
             <TableColumn fx:id="columnOther" prefWidth="164.0" text="Прочее" />
         </columns>
       </TableView>
+      <Button fx:id="button" layoutX="14.0" layoutY="847.0" mnemonicParsing="false" onAction="#onAction" prefHeight="25.0" prefWidth="60.0" text="Плитки" />
    </children>
 </AnchorPane>

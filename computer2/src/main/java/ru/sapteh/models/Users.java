@@ -1,16 +1,16 @@
 package ru.sapteh.models;
 
-import javafx.scene.control.TextField;
 import lombok.*;
 
 import javax.persistence.*;
+@Getter
 @Setter
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
 @Table
-public class Users extends TextField {
+public class Users {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private int id;
@@ -18,12 +18,4 @@ public class Users extends TextField {
     private String login;
     @Column
     private String password;
-
-    public String getLogin() {
-        return login;
-    }
-
-    public String getPassword() {
-        return password;
-    }
 }
